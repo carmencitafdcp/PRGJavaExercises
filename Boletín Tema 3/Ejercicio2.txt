@@ -1,0 +1,3 @@
+Carmen
+-5
+El nº es Impar y Negativo
