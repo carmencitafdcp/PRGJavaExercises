@@ -2,9 +2,8 @@ package ejercicios.Ejercicios;
 
 import java.util.Scanner;
 
-
+//BIEN
 public class Ejercicio_4 {
-    // TODO describir bien variables y returns, y probar funciones en el main
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int option = 0;
@@ -91,7 +90,6 @@ public class Ejercicio_4 {
      * @return el fragmento sacado de la cadena de Origen
      */
     public static String subcadena(String cadena2, int pos, int charac) {
-        //TODO sin substring y condicion revisar
         if (cadena2 == null || pos < 0 || pos >= cadena2.length() || pos + charac > cadena2.length()) {
             return ""; // No devuelve nada porque directamente no existe dicho fragmento con susodichas
                        // condiciones

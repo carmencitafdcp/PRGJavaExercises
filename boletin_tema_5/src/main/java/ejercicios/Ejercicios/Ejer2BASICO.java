@@ -1,5 +1,6 @@
 package ejercicios.Ejercicios;
 
+//BIEN
 public class Ejer2BASICO {
     public static void main(String[] args) {
         char[][] vector = crearMatriz(14, 5);

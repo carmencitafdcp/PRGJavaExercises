@@ -1,0 +1,60 @@
+<?xml version="1.0"?><document xmlns="http://maven.apache.org/XDOC/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 https://maven.apache.org/xsd/xdoc-2.0.xsd"><properties>
+<title>Project Plugin Management</title></properties>
+<body><section name="Project Plugin Management"><a name="Project_Plugin_Management"></a>
+<table border="0">
+<tr class="a">
+<th>GroupId</th>
+<th>ArtifactId</th>
+<th>Version</th></tr>
+<tr class="b">
+<td>org.apache.maven.plugins</td>
+<td><a class="externalLink" href="https://maven.apache.org/plugins/maven-antrun-plugin/">maven-antrun-plugin</a></td>
+<td>3.1.0</td></tr>
+<tr class="a">
+<td>org.apache.maven.plugins</td>
+<td><a class="externalLink" href="https://maven.apache.org/plugins/maven-assembly-plugin/">maven-assembly-plugin</a></td>
+<td>3.7.1</td></tr>
+<tr class="b">
+<td>org.apache.maven.plugins</td>
+<td><a class="externalLink" href="https://maven.apache.org/plugins/maven-clean-plugin/">maven-clean-plugin</a></td>
+<td>3.1.0</td></tr>
+<tr class="a">
+<td>org.apache.maven.plugins</td>
+<td><a class="externalLink" href="https://maven.apache.org/plugins/maven-compiler-plugin/">maven-compiler-plugin</a></td>
+<td>3.8.0</td></tr>
+<tr class="b">
+<td>org.apache.maven.plugins</td>
+<td><a class="externalLink" href="https://maven.apache.org/plugins/maven-dependency-plugin/">maven-dependency-plugin</a></td>
+<td>3.7.0</td></tr>
+<tr class="a">
+<td>org.apache.maven.plugins</td>
+<td><a class="externalLink" href="http://maven.apache.org/plugins/maven-deploy-plugin/">maven-deploy-plugin</a></td>
+<td>2.8.2</td></tr>
+<tr class="b">
+<td>org.apache.maven.plugins</td>
+<td><a class="externalLink" href="http://maven.apache.org/plugins/maven-install-plugin/">maven-install-plugin</a></td>
+<td>2.5.2</td></tr>
+<tr class="a">
+<td>org.apache.maven.plugins</td>
+<td><a class="externalLink" href="https://maven.apache.org/plugins/maven-jar-plugin/">maven-jar-plugin</a></td>
+<td>3.0.2</td></tr>
+<tr class="b">
+<td>org.apache.maven.plugins</td>
+<td><a class="externalLink" href="https://maven.apache.org/plugins/maven-project-info-reports-plugin/">maven-project-info-reports-plugin</a></td>
+<td>3.0.0</td></tr>
+<tr class="a">
+<td>org.apache.maven.plugins</td>
+<td><a class="externalLink" href="https://maven.apache.org/maven-release/maven-release-plugin/">maven-release-plugin</a></td>
+<td>3.0.1</td></tr>
+<tr class="b">
+<td>org.apache.maven.plugins</td>
+<td><a class="externalLink" href="https://maven.apache.org/plugins/maven-resources-plugin/">maven-resources-plugin</a></td>
+<td>3.0.2</td></tr>
+<tr class="a">
+<td>org.apache.maven.plugins</td>
+<td><a class="externalLink" href="https://maven.apache.org/plugins/maven-site-plugin/">maven-site-plugin</a></td>
+<td>3.7.1</td></tr>
+<tr class="b">
+<td>org.apache.maven.plugins</td>
+<td><a class="externalLink" href="https://maven.apache.org/surefire/maven-surefire-plugin/">maven-surefire-plugin</a></td>
+<td>2.22.0</td></tr></table></section></body></document>

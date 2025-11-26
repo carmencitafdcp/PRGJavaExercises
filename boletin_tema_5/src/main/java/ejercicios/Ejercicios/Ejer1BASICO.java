@@ -1,5 +1,6 @@
 package ejercicios.Ejercicios;
 
+//BIEN
 public class Ejer1BASICO {
     public static void main(String[] args) {
         int[] vector = crearVector(10);

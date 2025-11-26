@@ -1,5 +1,6 @@
 package ejercicios.Ejercicios;
 
+//BIEN
 public class Actividad2 {
        public static double[][] crearBidimensional(int filas, int columnas) {
         double[][] bidi = new double[filas][columnas];

@@ -1,0 +1,11 @@
+<?xml version="1.0"?><document xmlns="http://maven.apache.org/XDOC/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 https://maven.apache.org/xsd/xdoc-2.0.xsd"><properties>
+<title>Dependency Information</title></properties>
+<body><section name="Dependency Information"><a name="Dependency_Information"></a><subsection name="Apache Maven"><a name="Apache_Maven"></a><source>&lt;dependency&gt;
+  &lt;groupId&gt;areas&lt;/groupId&gt;
+  &lt;artifactId&gt;proyecto_areas&lt;/artifactId&gt;
+  &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;
+&lt;/dependency&gt;</source></subsection><subsection name="Apache Buildr"><a name="Apache_Buildr"></a><source>'areas:proyecto_areas:jar:1.0-SNAPSHOT'</source></subsection><subsection name="Apache Ivy"><a name="Apache_Ivy"></a><source>&lt;dependency org=&quot;areas&quot; name=&quot;proyecto_areas&quot; rev=&quot;1.0-SNAPSHOT&quot;&gt;
+  &lt;artifact name=&quot;proyecto_areas&quot; type=&quot;jar&quot; /&gt;
+&lt;/dependency&gt;</source></subsection><subsection name="Groovy Grape"><a name="Groovy_Grape"></a><source>@Grapes(
+@Grab(group='areas', module='proyecto_areas', version='1.0-SNAPSHOT')
+)</source></subsection><subsection name="Gradle/Grails"><a name="Gradle.2FGrails"></a><source>compile 'areas:proyecto_areas:1.0-SNAPSHOT'</source></subsection><subsection name="Scala SBT"><a name="Scala_SBT"></a><source>libraryDependencies += &quot;areas&quot; % &quot;proyecto_areas&quot; % &quot;1.0-SNAPSHOT&quot;</source></subsection><subsection name="Leiningen"><a name="Leiningen"></a><source>[areas/proyecto_areas &quot;1.0-SNAPSHOT&quot;]</source></subsection></section></body></document>

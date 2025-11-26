@@ -1,0 +1,80 @@
+{
+  "name":"Table Of Content",
+  "depth":0,
+  "items":
+    [
+      {
+        "name":"Project Reports",
+        "ref":"project-info",
+        "collapse":false,
+        "items":
+          [
+            {
+              "name":"Checkstyle",
+              "ref":"checkstyle",
+              "collapse":false,
+              "items":
+                [
+                ]
+              
+            },
+            {
+              "name":"Dependencies",
+              "ref":"dependencies",
+              "collapse":false,
+              "items":
+                [
+                ]
+              
+            },
+            {
+              "name":"Dependency Information",
+              "ref":"dependency-info",
+              "collapse":false,
+              "items":
+                [
+                ]
+              
+            },
+            {
+              "name":"About",
+              "ref":"index",
+              "collapse":false,
+              "items":
+                [
+                ]
+              
+            },
+            {
+              "name":"Plugin Management",
+              "ref":"plugin-management",
+              "collapse":false,
+              "items":
+                [
+                ]
+              
+            },
+            {
+              "name":"Plugins",
+              "ref":"plugins",
+              "collapse":false,
+              "items":
+                [
+                ]
+              
+            },
+            {
+              "name":"Summary",
+              "ref":"summary",
+              "collapse":false,
+              "items":
+                [
+                ]
+              
+            }
+          ]
+        
+      }
+    ]
+  
+}

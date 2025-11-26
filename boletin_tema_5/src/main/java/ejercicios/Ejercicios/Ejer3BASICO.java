@@ -2,6 +2,7 @@ package ejercicios.Ejercicios;
 
 import java.util.ArrayList;
 
+//BIEN
 public class Ejer3BASICO {
     public static void main(String[] args) {
         ArrayList<Integer> lista1 = crearArray(10);

@@ -1,0 +1,344 @@
+<?xml version="1.0"?><document xmlns="http://maven.apache.org/XDOC/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/XDOC/2.0 https://maven.apache.org/xsd/xdoc-2.0.xsd"><properties>
+<title>Checkstyle Results</title></properties>
+<body><section name="Checkstyle Results">
+<p>The following document contains the results of <a class="externalLink" href="http://checkstyle.sourceforge.net/">Checkstyle</a> 8.29 with checkstyle.xml ruleset.&#160;<a href="checkstyle.rss"><img alt="rss feed" src="images/rss.png" /></a></p></section><section name="Summary">
+<table border="0">
+<tr class="a">
+<th>Files</th>
+<th><img src="images/icon_info_sml.gif" alt="" />&#160;Info</th>
+<th><img src="images/icon_warning_sml.gif" alt="" />&#160;Warnings</th>
+<th><img src="images/icon_error_sml.gif" alt="" />&#160;Errors</th></tr>
+<tr class="b">
+<td>3</td>
+<td>0</td>
+<td>41</td>
+<td>0</td></tr></table></section><section name="Files">
+<table border="0">
+<tr class="a">
+<th>File</th>
+<th><img src="images/icon_info_sml.gif" alt="" />&#160;I</th>
+<th><img src="images/icon_warning_sml.gif" alt="" />&#160;W</th>
+<th><img src="images/icon_error_sml.gif" alt="" />&#160;E</th></tr>
+<tr class="b">
+<td><a href="#areas.app.Principal.java">areas/app/Principal.java</a></td>
+<td>0</td>
+<td>12</td>
+<td>0</td></tr>
+<tr class="a">
+<td><a href="#areas.milibreria.Areas.java">areas/milibreria/Areas.java</a></td>
+<td>0</td>
+<td>15</td>
+<td>0</td></tr>
+<tr class="b">
+<td><a href="#areas.milibreria.InterfazUsuario.java">areas/milibreria/InterfazUsuario.java</a></td>
+<td>0</td>
+<td>14</td>
+<td>0</td></tr></table></section><section name="Rules">
+<table border="0">
+<tr class="a">
+<th>Category</th>
+<th>Rule</th>
+<th>Violations</th>
+<th>Severity</th></tr>
+<tr class="b">
+<td>imports</td>
+<td><a class="externalLink" href="http://checkstyle.sourceforge.net/config_imports.html#AvoidStarImport">AvoidStarImport</a></td>
+<td>1</td>
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td></tr>
+<tr class="a">
+<td>indentation</td>
+<td><a class="externalLink" href="http://checkstyle.sourceforge.net/config_indentation.html#Indentation">Indentation</a>
+<ul>
+<li>throwsIndent: <tt>&quot;4&quot;</tt></li>
+<li>arrayInitIndent: <tt>&quot;2&quot;</tt></li>
+<li>caseIndent: <tt>&quot;2&quot;</tt></li>
+<li>basicOffset: <tt>&quot;2&quot;</tt></li>
+<li>braceAdjustment: <tt>&quot;0&quot;</tt></li>
+<li>lineWrappingIndentation: <tt>&quot;4&quot;</tt></li></ul></td>
+<td>35</td>
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td></tr>
+<tr class="b">
+<td>javadoc</td>
+<td><a class="externalLink" href="http://checkstyle.sourceforge.net/config_javadoc.html#MissingJavadocMethod">MissingJavadocMethod</a>
+<ul>
+<li>scope: <tt>&quot;public&quot;</tt></li>
+<li>tokens: <tt>&quot;METHOD_DEF, CTOR_DEF, ANNOTATION_FIELD_DEF&quot;</tt></li>
+<li>minLineCount: <tt>&quot;2&quot;</tt></li>
+<li>allowedAnnotations: <tt>&quot;Override, Test&quot;</tt></li></ul></td>
+<td>2</td>
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td></tr>
+<tr class="a">
+<td>whitespace</td>
+<td><a class="externalLink" href="http://checkstyle.sourceforge.net/config_whitespace.html#EmptyLineSeparator">EmptyLineSeparator</a>
+<ul>
+<li>allowNoEmptyLineBetweenFields: <tt>&quot;true&quot;</tt></li>
+<li>tokens: <tt>&quot;PACKAGE_DEF, IMPORT, STATIC_IMPORT, CLASS_DEF, INTERFACE_DEF, ENUM_DEF,                     STATIC_INIT, INSTANCE_INIT, METHOD_DEF, CTOR_DEF, VARIABLE_DEF&quot;</tt></li></ul></td>
+<td>3</td>
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td></tr></table></section><section name="Details"><subsection name="areas/app/Principal.java">
+<table border="0">
+<tr class="b">
+<th>Severity</th>
+<th>Category</th>
+<th>Rule</th>
+<th>Message</th>
+<th>Line</th></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>whitespace</td>
+<td>EmptyLineSeparator</td>
+<td>'package' should be separated from previous statement.</td>
+<td>26</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>imports</td>
+<td>AvoidStarImport</td>
+<td>Using the '.*' form of import should be avoided - milibreria.*.</td>
+<td>31</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def modifier' has incorrect indentation level 4, expected level should be 2.</td>
+<td>34</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>javadoc</td>
+<td>MissingJavadocMethod</td>
+<td>Missing a Javadoc comment.</td>
+<td>34</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def' child has incorrect indentation level 8, expected level should be 4.</td>
+<td>35</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def' child has incorrect indentation level 8, expected level should be 4.</td>
+<td>36</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def' child has incorrect indentation level 8, expected level should be 4.</td>
+<td>37</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def' child has incorrect indentation level 8, expected level should be 4.</td>
+<td>38</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def' child has incorrect indentation level 8, expected level should be 4.</td>
+<td>39</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def' child has incorrect indentation level 8, expected level should be 4.</td>
+<td>40</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def' child has incorrect indentation level 8, expected level should be 4.</td>
+<td>41</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def rcurly' has incorrect indentation level 4, expected level should be 2.</td>
+<td>42</td></tr></table></subsection><subsection name="areas/milibreria/Areas.java">
+<table border="0">
+<tr class="a">
+<th>Severity</th>
+<th>Category</th>
+<th>Rule</th>
+<th>Message</th>
+<th>Line</th></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>whitespace</td>
+<td>EmptyLineSeparator</td>
+<td>'package' should be separated from previous statement.</td>
+<td>26</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'ctor def modifier' has incorrect indentation level 4, expected level should be 2.</td>
+<td>29</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'ctor def rcurly' has incorrect indentation level 4, expected level should be 2.</td>
+<td>30</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def modifier' has incorrect indentation level 4, expected level should be 2.</td>
+<td>32</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def' child has incorrect indentation level 8, expected level should be 4.</td>
+<td>33</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def rcurly' has incorrect indentation level 4, expected level should be 2.</td>
+<td>34</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def modifier' has incorrect indentation level 4, expected level should be 2.</td>
+<td>36</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def' child has incorrect indentation level 8, expected level should be 4.</td>
+<td>37</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def rcurly' has incorrect indentation level 4, expected level should be 2.</td>
+<td>38</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def modifier' has incorrect indentation level 4, expected level should be 2.</td>
+<td>40</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def' child has incorrect indentation level 8, expected level should be 4.</td>
+<td>41</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def rcurly' has incorrect indentation level 4, expected level should be 2.</td>
+<td>42</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def modifier' has incorrect indentation level 4, expected level should be 2.</td>
+<td>44</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def' child has incorrect indentation level 8, expected level should be 4.</td>
+<td>45</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def rcurly' has incorrect indentation level 4, expected level should be 2.</td>
+<td>46</td></tr></table></subsection><subsection name="areas/milibreria/InterfazUsuario.java">
+<table border="0">
+<tr class="a">
+<th>Severity</th>
+<th>Category</th>
+<th>Rule</th>
+<th>Message</th>
+<th>Line</th></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>whitespace</td>
+<td>EmptyLineSeparator</td>
+<td>'package' should be separated from previous statement.</td>
+<td>26</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'member def modifier' has incorrect indentation level 4, expected level should be 2.</td>
+<td>31</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def modifier' has incorrect indentation level 4, expected level should be 2.</td>
+<td>33</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>javadoc</td>
+<td>MissingJavadocMethod</td>
+<td>Missing a Javadoc comment.</td>
+<td>33</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def' child has incorrect indentation level 8, expected level should be 4.</td>
+<td>34</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'do..while' has incorrect indentation level 8, expected level should be 4.</td>
+<td>35</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'do..while' child has incorrect indentation level 12, expected level should be 6.</td>
+<td>36</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'do..while' child has incorrect indentation level 12, expected level should be 6.</td>
+<td>37</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'do..while rcurly' has incorrect indentation level 8, expected level should be 4.</td>
+<td>38</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def' child has incorrect indentation level 8, expected level should be 4.</td>
+<td>39</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def rcurly' has incorrect indentation level 4, expected level should be 2.</td>
+<td>40</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def modifier' has incorrect indentation level 4, expected level should be 2.</td>
+<td>42</td></tr>
+<tr class="b">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def' child has incorrect indentation level 8, expected level should be 4.</td>
+<td>43</td></tr>
+<tr class="a">
+<td><img src="images/icon_warning_sml.gif" alt="" />&#160;Warning</td>
+<td>indentation</td>
+<td>Indentation</td>
+<td>'method def rcurly' has incorrect indentation level 4, expected level should be 2.</td>
+<td>44</td></tr></table></subsection></section></body></document>

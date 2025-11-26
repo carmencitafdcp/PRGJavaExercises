@@ -5,7 +5,6 @@ public class Bol2_Ejer9 {
         int quantity;
         int number;
         int max = 0;
-        int firstnumber;
 
         System.out.println("In this program we are going to calculate the maximum of some numbers that you're going to write");
         System.out.println("*************************************************************************************************");
